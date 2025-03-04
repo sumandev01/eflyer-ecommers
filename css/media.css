@@ -1,0 +1,138 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*=====header css=====*/
+	#header{
+		border-bottom: 2px solid #e4dede;
+	}
+	.h_top_menu {
+	    padding-top: 12px;
+	}
+	.h_top_menu::before{
+		border-left: 0;
+		border-right: 0;
+	}
+	.h_top_menu ul li {
+	    margin-right: 10px !important;
+	}
+	/*===== slider =====*/
+	.carousel_text h1{
+		font-size: 35px;
+		line-height: 40px;
+	}
+	.slick-prev {
+	    left: 40%;
+	}
+	.slick-next {
+	    left: 60%;
+	}
+	/*===== footer css =====*/
+	.footer_menu{
+		margin-bottom: 10px;
+	}
+	.footer_menu ul li{
+		display: block !important;
+		margin-right: 0 !important;
+	}
+	.footer_menu p,
+	.copyright{
+		padding-top: 0px;
+	}
+	.copyright span{
+		display: block;
+	}
+	/*===== login form css =====*/
+	#rememberMe{
+		margin-top: 8px;
+	}
+	.login_remenberme_label,
+	.possword_reset_button{
+		font-size: 12px;
+	}
+	/*===== reset password css =====*/
+	#sendResetEmail {
+	    font-size: 14px;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*=====header css=====*/
+	#header{
+		border-bottom: 2px solid #e4dede;
+	}
+	.h_top_menu {
+	    padding-top: 12px;
+	}
+	/*===== slider =====*/
+	.carousel_text h1{
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.slick-prev {
+	    left: 45%;
+	}
+	.slick-next {
+	    left: 55%;
+	}
+	/*===== footer css =====*/
+	.footer_menu{
+		margin-bottom: 10px;
+	}
+	.footer_menu ul li{
+		display: block !important;
+		margin-right: 0 !important;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*=====header css=====*/
+	.h_top_menu ul li {
+	    margin-right: 20px !important;
+	}
+	/*===== slider =====*/
+	.carousel_text h1{
+		font-size: 50px;
+		line-height: 50px;
+	}
+	/*===== product category css =====*/
+	#product_category_dropdown{
+		width: 130px;
+		font-size: 15px;
+	}
+	.product_category_item{
+		font-size: 15px;
+	}
+	/*===== language css =====*/
+	.language_btn{
+		width: 100%;
+	}
+	#selectedCountry{
+		display: none;
+	}
+	.language_dropdown_menu{
+		    --bs-dropdown-min-width: 100% !important;
+	}
+	.language_item{
+		text-align: center;
+	}
+	.language_item_text{
+		display: none;
+		visibility: hidden;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*===== slider =====*/
+	.carousel_text h1{
+		font-size: 50px;
+		line-height: 50px;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {}
